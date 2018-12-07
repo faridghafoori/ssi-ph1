@@ -2,53 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cb264db-e4a4-43b8-b946-f8ca830c4b29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/output/videos/challenge.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/videos/solidWhiteRight.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/videos/solidYellowLeft.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_blur_images/solidWhiteCurve.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_blur/solidWhiteCurve.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_blur_images/solidWhiteRight.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_blur/solidWhiteRight.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_blur_images/solidYellowCurve.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_blur/solidYellowCurve.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_blur_images/solidYellowCurve2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_blur/solidYellowCurve2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_blur_images/solidYellowLeft.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_blur/solidYellowLeft.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_blur_images/whiteCarLaneSwitch.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_blur/whiteCarLaneSwitch.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_canny_images/solidWhiteCurve.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_canny/solidWhiteCurve.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_canny_images/solidWhiteRight.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_canny/solidWhiteRight.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_canny_images/solidYellowCurve.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_canny/solidYellowCurve.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_canny_images/solidYellowCurve2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_canny/solidYellowCurve2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_canny_images/solidYellowLeft.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_canny/solidYellowLeft.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_canny_images/whiteCarLaneSwitch.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_canny/whiteCarLaneSwitch.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_gray_images/solidWhiteCurve.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_gray/solidWhiteCurve.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_gray_images/solidWhiteRight.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_gray/solidWhiteRight.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_gray_images/solidYellowCurve.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_gray/solidYellowCurve.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_gray_images/solidYellowCurve2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_gray/solidYellowCurve2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_gray_images/solidYellowLeft.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_gray/solidYellowLeft.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_gray_images/whiteCarLaneSwitch.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_gray/whiteCarLaneSwitch.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_hough_images/solidWhiteCurve.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_hough/solidWhiteCurve.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_hough_images/solidWhiteRight.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_hough/solidWhiteRight.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_hough_images/solidYellowCurve.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_hough/solidYellowCurve.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_hough_images/solidYellowCurve2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_hough/solidYellowCurve2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_hough_images/solidYellowLeft.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_hough/solidYellowLeft.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_hough_images/whiteCarLaneSwitch.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_hough/whiteCarLaneSwitch.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_merge_images/solidWhiteCurve.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_merge/solidWhiteCurve.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_merge_images/solidWhiteRight.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_merge/solidWhiteRight.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_merge_images/solidYellowCurve.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_merge/solidYellowCurve.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_merge_images/solidYellowCurve2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_merge/solidYellowCurve2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_merge_images/solidYellowLeft.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_merge/solidYellowLeft.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_merge_images/whiteCarLaneSwitch.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_merge/whiteCarLaneSwitch.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_region_images/solidWhiteCurve.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_region/solidWhiteCurve.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_region_images/solidWhiteRight.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_region/solidWhiteRight.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_region_images/solidYellowCurve.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_region/solidYellowCurve.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_region_images/solidYellowCurve2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_region/solidYellowCurve2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_region_images/solidYellowLeft.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_region/solidYellowLeft.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_region_images/whiteCarLaneSwitch.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_region/whiteCarLaneSwitch.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_videos/challenge.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_videos/solidWhiteRight.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_videos/solidYellowLeft.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videos/challenge.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/videos/challenge.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videos/solidWhiteRight.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/videos/solidWhiteRight.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videos/solidYellowLeft.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/videos/solidYellowLeft.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,14 +16,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="166" column="105" lean-forward="true" selection-start-line="166" selection-start-column="105" selection-end-line="166" selection-end-column="105" />
+            <state relative-caret-position="3634">
+              <caret line="158" column="75" lean-forward="true" selection-start-line="158" selection-start-column="75" selection-end-line="158" selection-end-column="75" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret column="20" selection-start-column="20" selection-end-column="20" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -156,6 +122,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -182,7 +149,18 @@
             <path>
               <item name="ssi-ph1" type="b2602c69:ProjectViewProjectNode" />
               <item name="ssi-ph1" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssi-ph1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssi-ph1" type="462c0819:PsiDirectoryNode" />
               <item name="output" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssi-ph1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssi-ph1" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+              <item name="images_merge" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -304,18 +282,18 @@
       <updated>1543575946186</updated>
       <workItem from="1543575948948" duration="3768000" />
       <workItem from="1544182741652" duration="22000" />
-      <workItem from="1544182830076" duration="8149000" />
+      <workItem from="1544182830076" duration="8812000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11939000" />
+    <option name="totallyTimeSpent" value="12602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19542067" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19542067" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -329,7 +307,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005325" side_tool="true" weight="0.33662477" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49946752" visible="true" weight="0.33662477" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946752" visible="true" weight="0.33662477" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32944345" />
       <window_info anchor="right" x="0" y="0" width="430" height="1000" id="Documentation" side_tool="true" weight="0.32960597" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -431,13 +409,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/output/images_region/solidWhiteCurve.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images_hough/solidWhiteCurve.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images_blur/solidYellowCurve.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images_blur/solidWhiteCurve.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images_canny/solidWhiteRight.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/solidYellowCurve2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images_merge/solidWhiteRight.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/images_merge/solidWhiteCurve.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="166" column="105" lean-forward="true" selection-start-line="166" selection-start-column="105" selection-end-line="166" selection-end-column="105" />
+        <state relative-caret-position="3634">
+          <caret line="158" column="75" lean-forward="true" selection-start-line="158" selection-start-column="75" selection-end-line="158" selection-end-column="75" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="20" selection-start-column="20" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
