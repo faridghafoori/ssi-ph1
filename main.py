@@ -17,13 +17,14 @@ min_line_length = 20
 max_line_gap = 1
 images_directory = 'images'
 videos_directory = 'videos'
-output_gray_images = 'output_gray_images'
-output_blur_images = 'output_blur_images'
-output_canny_images = 'output_canny_images'
-output_region_images = 'output_region_images'
-output_hough_images = 'output_hough_images'
-output_merge_images = 'output_merge_images'
-videos_output_directory = 'output_videos'
+output_directory = 'output'
+output_gray_images = 'images_gray'
+output_blur_images = 'images_blur'
+output_canny_images = 'images_canny'
+output_region_images = 'images_region'
+output_hough_images = 'images_hough'
+output_merge_images = 'images_merge'
+videos_output_directory = 'videos'
 
 
 def gray_scale(img):
@@ -103,94 +104,90 @@ def weighted_img(img, initial_img, α = 0.8, β = 1., λ = 0.):
 	return cv2.addWeighted(initial_img, α, img, β, λ)
 
 
-def showImagesInHtml(images, dir):
+def show_images_in_html(images, dir):
 	random_number = random.randint(1, 100000)
 	buffer = "<div>"
 	for img in images:
-		imgSource = dir + '/' + img + "?" + str(random_number)
-		buffer += """<img src="{0}" width="300" height="110" style="float:left; margin:1px"/>""".format(imgSource)
+		img_src = dir + '/' + img + "?" + str(random_number)
+		buffer += """<img src="{0}" width="300" height="110" style="float:left; margin:1px"/>""".format(img_src)
 	buffer += "</div>"
 	display(HTML(buffer))
 
 
-def saveImages(images, outputDir, imageNames, isGray = 0):
-	if not os.path.exists(outputDir):
-		os.makedirs(outputDir)
+def save_images(images, output_dir, image_names, is_gray = 0):
+	if not os.path.exists(output_directory + '/' + output_dir):
+		os.makedirs(output_directory + '/' + output_dir)
 
-	zipped = list(map(lambda imgZip: (outputDir + '/' + imgZip[1], imgZip[0]), zip(images, imageNames)))
+	zipped = list(map(lambda imgZip: (output_directory + '/' + output_dir + '/' + imgZip[1], imgZip[0]), zip(images, image_names)))
 	for imgPair in zipped:
-		if isGray:
+		if is_gray:
 			plt.imsave(imgPair[0], imgPair[1], cmap = 'gray')
 		else:
 			plt.imsave(imgPair[0], imgPair[1])
 
 
-def doSaveAndDisplay(images, outputDir, imageNames, somethingToDo, isGray = 0):
-	outputImages = list(map(somethingToDo, images))
-	saveImages(outputImages, outputDir, imageNames, isGray)
-	showImagesInHtml(imageNames, outputDir)
-	return outputImages
+def save_file_and_display(images, output_dir, image_names, something_to_do, is_gray = 0):
+	output_images = list(map(something_to_do, images))
+	save_images(output_images, output_dir, image_names, is_gray)
+	show_images_in_html(image_names, output_dir)
+	return output_images
 
 
-def grayAction(img):
+def gray_action(img):
 	return gray_scale(img)
 
 
-def maskAction(img):
-	ysize = img.shape[0]
-	xsize = img.shape[1]
-	region = np.array([[0, ysize], [xsize / 2, (ysize / 2) + 10], [xsize, ysize]], np.int32)
+def mask_action(img):
+	y_size = img.shape[0]
+	x_size = img.shape[1]
+	region = np.array([[0, y_size], [x_size / 2, (y_size / 2) + 10], [x_size, y_size]], np.int32)
 	return region_of_interest(img, [region])
 
 
 def finding_lanes_on_images():
 	image_names = os.listdir(images_directory)
-	showImagesInHtml(image_names, images_directory)
+	show_images_in_html(image_names, images_directory)
 	images = list(map(lambda img: plt.imread(images_directory + '/' + img), image_names))
 
-	gray_images = doSaveAndDisplay(images, output_gray_images, image_names, grayAction, 1)
+	gray_images = save_file_and_display(images, output_gray_images, image_names, gray_action, 1)
 
 	blur_action = lambda img: gaussian_blur(img, blur_kernel_size)
 
-	blur_images = doSaveAndDisplay(gray_images, output_blur_images, image_names, blur_action, 1)
+	blur_images = save_file_and_display(gray_images, output_blur_images, image_names, blur_action, 1)
 
 	canny_action = lambda img: canny(img, canny_low_threshold, canny_high_threshold)
-	canny_images = doSaveAndDisplay(blur_images, output_canny_images, image_names, canny_action)
+	canny_images = save_file_and_display(blur_images, output_canny_images, image_names, canny_action)
 
-	region_images = doSaveAndDisplay(canny_images, output_region_images, image_names, maskAction)
+	region_images = save_file_and_display(canny_images, output_region_images, image_names, mask_action)
 
 	hough_action = lambda img: hough_lines(img, rho, theta, threshold, min_line_length, max_line_gap)
-	hough_images = doSaveAndDisplay(region_images, output_hough_images, image_names, hough_action)
+	hough_images = save_file_and_display(region_images, output_hough_images, image_names, hough_action)
 
-	merge_images = list(map(lambda imgs: weighted_img(imgs[0], imgs[1]), zip(images, hough_images)))
-	imagesMerged = doSaveAndDisplay(merge_images, output_merge_images, image_names, lambda img: img)
+	merge_images = list(map(lambda img: weighted_img(img[0], img[1]), zip(images, hough_images)))
+	imagesMerged = save_file_and_display(merge_images, output_merge_images, image_names, lambda img: img)
 
 
 def process_image(image):
-	withLines = hough_lines(maskAction(canny(gaussian_blur(grayAction(image), blur_kernel_size), canny_low_threshold, canny_high_threshold)), rho, theta, threshold, min_line_length, max_line_gap)
-	return weighted_img(image, withLines)
+	white_lines = hough_lines(mask_action(canny(gaussian_blur(gray_action(image), blur_kernel_size), canny_low_threshold, canny_high_threshold)), rho, theta, threshold, min_line_length, max_line_gap)
+	return weighted_img(image, white_lines)
 
 
-def processVideo(videoFileName, inputVideoDir, outputVideoDir):
-	if not os.path.exists(outputVideoDir):
-		os.makedirs(outputVideoDir)
-	clip = VideoFileClip(inputVideoDir + '/' + videoFileName)
-	outputClip = clip.fl_image(process_image)
-	outVideoFile = outputVideoDir + '/' + videoFileName
-	outputClip.write_videofile(outVideoFile, audio = False)
+def process_video(video_file_name, input_video_dir, output_video_dir):
+	if not os.path.exists(output_directory + '/' + output_video_dir):
+		os.makedirs(output_directory + '/' + output_video_dir)
+	clip = VideoFileClip(input_video_dir + '/' + video_file_name)
+	output_clip = clip.fl_image(process_image)
+	video_file_output = output_directory + '/' + output_video_dir + '/' + video_file_name
+	output_clip.write_videofile(video_file_output, audio = False)
 	display(
-		HTML("""
-		<video width="960" height="540" controls>
-          <source src="{0}">
-        </video>
-        """.format(outVideoFile))
+		HTML("""<video width="960" height="540" controls><source src="{0}"></video>""".format(video_file_output))
 	)
 
 
 def finding_lanes_on_videos():
-	processVideo('solidWhiteRight.mp4', videos_directory, videos_output_directory)
-	processVideo('solidYellowLeft.mp4', videos_directory, videos_output_directory)
-	processVideo('challenge.mp4', videos_directory, videos_output_directory)
+	process_video('solidWhiteRight.mp4', videos_directory, videos_output_directory)
+	process_video('solidYellowLeft.mp4', videos_directory, videos_output_directory)
+	process_video('challenge.mp4', videos_directory, videos_output_directory)
 
 
 if __name__ == '__main__':

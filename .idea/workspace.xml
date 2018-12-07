@@ -2,11 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cb264db-e4a4-43b8-b946-f8ca830c4b29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/videos/challenge.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/videos/solidWhiteRight.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/videos/solidYellowLeft.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_blur_images/solidWhiteCurve.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_blur/solidWhiteCurve.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_blur_images/solidWhiteRight.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_blur/solidWhiteRight.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_blur_images/solidYellowCurve.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_blur/solidYellowCurve.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_blur_images/solidYellowCurve2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_blur/solidYellowCurve2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_blur_images/solidYellowLeft.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_blur/solidYellowLeft.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_blur_images/whiteCarLaneSwitch.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_blur/whiteCarLaneSwitch.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_canny_images/solidWhiteCurve.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_canny/solidWhiteCurve.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_canny_images/solidWhiteRight.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_canny/solidWhiteRight.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_canny_images/solidYellowCurve.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_canny/solidYellowCurve.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_canny_images/solidYellowCurve2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_canny/solidYellowCurve2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_canny_images/solidYellowLeft.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_canny/solidYellowLeft.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_canny_images/whiteCarLaneSwitch.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_canny/whiteCarLaneSwitch.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_gray_images/solidWhiteCurve.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_gray/solidWhiteCurve.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_gray_images/solidWhiteRight.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_gray/solidWhiteRight.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_gray_images/solidYellowCurve.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_gray/solidYellowCurve.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_gray_images/solidYellowCurve2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_gray/solidYellowCurve2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_gray_images/solidYellowLeft.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_gray/solidYellowLeft.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_gray_images/whiteCarLaneSwitch.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_gray/whiteCarLaneSwitch.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_hough_images/solidWhiteCurve.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_hough/solidWhiteCurve.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_hough_images/solidWhiteRight.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_hough/solidWhiteRight.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_hough_images/solidYellowCurve.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_hough/solidYellowCurve.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_hough_images/solidYellowCurve2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_hough/solidYellowCurve2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_hough_images/solidYellowLeft.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_hough/solidYellowLeft.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_hough_images/whiteCarLaneSwitch.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_hough/whiteCarLaneSwitch.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_merge_images/solidWhiteCurve.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_merge/solidWhiteCurve.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_merge_images/solidWhiteRight.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_merge/solidWhiteRight.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_merge_images/solidYellowCurve.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_merge/solidYellowCurve.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_merge_images/solidYellowCurve2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_merge/solidYellowCurve2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_merge_images/solidYellowLeft.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_merge/solidYellowLeft.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_merge_images/whiteCarLaneSwitch.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_merge/whiteCarLaneSwitch.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_region_images/solidWhiteCurve.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_region/solidWhiteCurve.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_region_images/solidWhiteRight.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_region/solidWhiteRight.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_region_images/solidYellowCurve.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_region/solidYellowCurve.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_region_images/solidYellowCurve2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_region/solidYellowCurve2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_region_images/solidYellowLeft.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_region/solidYellowLeft.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_region_images/whiteCarLaneSwitch.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output/images_region/whiteCarLaneSwitch.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_videos/challenge.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_videos/solidWhiteRight.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_videos/solidYellowLeft.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videos/challenge.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/videos/challenge.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videos/solidWhiteRight.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/videos/solidWhiteRight.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videos/solidYellowLeft.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/videos/solidYellowLeft.mp4" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +57,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/ssi_ph1$main.coverage" NAME="main Coverage Results" MODIFIED="1544189497981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ssi_ph1$main.coverage" NAME="main Coverage Results" MODIFIED="1544193531620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ssi_ph1$Main.coverage" NAME="Main Coverage Results" MODIFIED="1543578431624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="FileEditorManager">
@@ -23,8 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9">
-              <caret line="179" column="36" selection-start-line="179" selection-start-column="36" selection-end-line="179" selection-end-column="36" />
+            <state relative-caret-position="249">
+              <caret line="166" column="105" lean-forward="true" selection-start-line="166" selection-start-column="105" selection-end-line="166" selection-end-column="105" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -43,19 +85,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Imageio</find>
-      <find>testImagesGray</find>
-      <find>testImagesDir</find>
-      <find>testImageNames</find>
-      <find>testImages</find>
-      <find>test_images</find>
-      <find>imagesGray</find>
-      <find>test_images_gray</find>
-      <find>blurAction</find>
-      <find>imagesBlur</find>
-      <find>cannyAction</find>
-      <find>imagesCanny</find>
-      <find>imagesMasked</find>
       <find>masked_images</find>
       <find>houghAction</find>
       <find>imagesLines</find>
@@ -64,20 +93,30 @@
       <find>testVideosOutputDir</find>
       <find>testVideoInputDir</find>
       <find>videos_input_directory</find>
+      <find>processVideo</find>
+      <find>prosecc_video</find>
+      <find>videoFileName</find>
+      <find>input_vi</find>
+      <find>inputVideoDir</find>
+      <find>outputVideoDir</find>
+      <find>outputClip</find>
+      <find>outVideoFile</find>
+      <find>withLines</find>
+      <find>ysize</find>
+      <find>xsize</find>
+      <find>maskAction</find>
+      <find>grayAction</find>
+      <find>doSaveAndDisplay</find>
+      <find>somethingToDo</find>
+      <find>outputImages</find>
+      <find>saveImages</find>
+      <find>outputDir</find>
+      <find>imageNames</find>
+      <find>isGray</find>
+      <find>showImagesInHtml</find>
+      <find>imgSource</find>
     </findStrings>
     <replaceStrings>
-      <replace />
-      <replace>images_dir</replace>
-      <replace>images_directory</replace>
-      <replace>image_names</replace>
-      <replace>test_images</replace>
-      <replace>images</replace>
-      <replace>gray_images</replace>
-      <replace>blur_action</replace>
-      <replace>blur_images</replace>
-      <replace>canny_action</replace>
-      <replace>canny_images</replace>
-      <replace>masked_images</replace>
       <replace>region_images</replace>
       <replace>hough_action</replace>
       <replace>hough_images</replace>
@@ -86,6 +125,28 @@
       <replace>videos_output_directory</replace>
       <replace>videos_input_directory</replace>
       <replace>videos_directory</replace>
+      <replace>prosecc_video</replace>
+      <replace>process_video</replace>
+      <replace>video_file_name</replace>
+      <replace>input_video_dir</replace>
+      <replace>output_video_dir</replace>
+      <replace>output_cli[</replace>
+      <replace>output_clip</replace>
+      <replace>video_file_output</replace>
+      <replace>white_lines</replace>
+      <replace>y_size</replace>
+      <replace>x_size</replace>
+      <replace>mask_action</replace>
+      <replace>gray_action</replace>
+      <replace>save_file_and_display</replace>
+      <replace>something_to_do</replace>
+      <replace>output_images</replace>
+      <replace>save_images</replace>
+      <replace>output_dir</replace>
+      <replace>image_names</replace>
+      <replace>is_gray</replace>
+      <replace>show_images_in_html</replace>
+      <replace>img_src</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -117,6 +178,11 @@
             <path>
               <item name="ssi-ph1" type="b2602c69:ProjectViewProjectNode" />
               <item name="ssi-ph1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssi-ph1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssi-ph1" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -238,23 +304,23 @@
       <updated>1543575946186</updated>
       <workItem from="1543575948948" duration="3768000" />
       <workItem from="1544182741652" duration="22000" />
-      <workItem from="1544182830076" duration="6086000" />
+      <workItem from="1544182830076" duration="8149000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9876000" />
+    <option name="totallyTimeSpent" value="11939000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19542067" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19542067" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32944345" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946752" visible="true" weight="0.43806103" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49893504" weight="0.43806103" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -262,8 +328,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005325" side_tool="true" weight="0.32944345" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.47396767" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005325" side_tool="true" weight="0.33662477" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49946752" visible="true" weight="0.33662477" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32944345" />
       <window_info anchor="right" x="0" y="0" width="430" height="1000" id="Documentation" side_tool="true" weight="0.32960597" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -353,10 +419,22 @@
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/moviepy/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1164" />
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/moviepy/video/VideoClip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="506" column="8" selection-start-line="506" selection-start-column="8" selection-end-line="506" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="179" column="36" selection-start-line="179" selection-start-column="36" selection-end-line="179" selection-end-column="36" />
+        <state relative-caret-position="249">
+          <caret line="166" column="105" lean-forward="true" selection-start-line="166" selection-start-column="105" selection-end-line="166" selection-end-column="105" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
